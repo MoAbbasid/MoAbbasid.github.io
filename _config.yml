@@ -15,8 +15,8 @@ url: https://MoAbbasid.github.io
 owner:
   name: Mohamed Abbas Elsayed
   avatar: hanlin.jpg
-  bio: Dream big, stay positive, work hard, and enjoy the journey.
-  email: Moabbasid@outlook.com
+  bio: Forwards and Upwards ↗.
+  email: moabbasid@outlook.com
   cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
 
 
@@ -24,6 +24,8 @@ owner:
   # twitter: lancecai2002
   github: MoAbbasid
   linkedin: moabbasid
+  medium_username: Moabbasid # your Medium username
+
   # scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
   # researchgate: https://www.researchgate.net/profile/Hanlin-Cai
   # zhihu: https://www.zhihu.com/people/chlire
@@ -65,7 +67,7 @@ links:
 # --------------------------------------------------
 #  BUILD & RENDERING OPTIONS
 # --------------------------------------------------
-timezone: Asia/Shanghai          # IANA time-zone ID (China/Beijing is invalid)
+timezone: Asia/Singapore         # IANA time-zone ID (China/Beijing is invalid)
 future: true                     # Render posts dated in the future
 highlighter: rouge               # Code highlighter; Rouge is default in MM
 # markdown: kramdown             # Jekyll default; uncomment to force
@@ -99,8 +101,8 @@ kramdown:
 # --------------------------------------------------
 #  DISQUS COMMENT SYSTEM
 # --------------------------------------------------
-disqus:
-  shortname: lancecai
+# disqus:
+#   shortname: lancecai
 
 
 # include: [".htaccess"]
