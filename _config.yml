@@ -52,14 +52,14 @@ bing_verify: "D49ECF33034D5785DAD27B77341D43FA"
 links:
   - title: About Me
     url: /
+  - title: Blogs
+    url: /blogs/
   - title: Publications
     url: /publications/
   # - title: Awards
   #   url: /awards/
   - title: Hobbies
     url: /hobbies/
-  - title: Blogs
-    url: /blogs/
   # - title: 中文
   #   url: /cn/
 
