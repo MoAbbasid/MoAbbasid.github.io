@@ -10,7 +10,7 @@ title: Blogs
 
 <br>
 
-## Leave a Message 欢迎留言
+## Leave a Message
 
 <br>
 
