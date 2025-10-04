@@ -1,6 +1,6 @@
 ---
 title: "LlamaIndex Interactive Story Teller Agent"
-date: 2025-10-04
+date: 2025-06-18
 layout: post
 ---
 # LlamaIndex-StoryTeller
