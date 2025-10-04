@@ -9,9 +9,11 @@ author_profile: true
 
 # Blog Posts
 
-- [Blog 1](blogs/test.md)
-- [Blog 2](blogs/LlamaIndex.md)
-- [Blog 3](blogs/blog3.md)
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
 
 ## Leave a Message
 
