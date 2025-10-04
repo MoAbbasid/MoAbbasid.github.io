@@ -5,14 +5,14 @@ title: Blogs
 author_profile: true
 ---
 
-### 2025
+### Blog Posts
 
-{% assign year_posts = site.posts | where_exp:"post","post.date >= '2025-01-01' and post.date < '2026-01-01'" %}
+{% assign blog_pages = site.pages | where_exp:"page","page.path contains 'blogs/'" | where_exp:"page","page.path != 'blogs.md'" | sort: "date" | reverse %}
 <ul>
-  {% for post in year_posts %}
-    {% if post.path contains 'blogs/' %}
+  {% for blog in blog_pages %}
+    {% if blog.title and blog.url %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> <span>({{ post.date | date: "%Y-%m-%d" }})</span>
+        <a href="{{ blog.url }}">{{ blog.title }}</a>{% if blog.date %} <span>({{ blog.date | date: "%Y-%m-%d" }})</span>{% endif %}
       </li>
     {% endif %}
   {% endfor %}
