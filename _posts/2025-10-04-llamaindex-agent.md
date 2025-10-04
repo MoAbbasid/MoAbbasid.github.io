@@ -1,11 +1,12 @@
 ---
-title: "LlamaIndex Agent"
+title: "LlamaIndex Interactive Story Teller Agent"
 date: 2025-10-04
 layout: post
 ---
 # LlamaIndex-StoryTeller
 An AI-powered text adventure game where every scene can be illustrated by AI. \
 acessible at: [LlamaIndex StoryTeller](https://moabbasid.github.io/LlamaIndex-StoryTeller)
+
 
 Subject to Model rate limits.
 
