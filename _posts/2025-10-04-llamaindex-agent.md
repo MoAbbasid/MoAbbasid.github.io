@@ -1,5 +1,7 @@
 ---
-title: "LlamaIndex-StoryTeller"
+title: "LlamaIndex Agent"
+date: 2025-10-04
+layout: post
 ---
 # LlamaIndex-StoryTeller
 An AI-powered text adventure game where every scene can be illustrated by AI. \
