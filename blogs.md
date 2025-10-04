@@ -5,15 +5,18 @@ title: Blogs
 author_profile: true
 ---
 
-
 ### 2025
----
-title: "The 1-Minute Trick to Remember Any Logic or DSA Approach Forever"
-date: 2025-10-05
-categories: blog
-redirect_to: "https://medium.com/@himanshusingour7/the-1-minute-trick-to-remember-any-logic-or-dsa-approach-forever-yes-forever-f1096f6d96bf"
----
 
+{% assign year_posts = site.posts | where_exp:"post","post.date >= '2025-01-01' and post.date < '2026-01-01'" %}
+<ul>
+  {% for post in year_posts %}
+    {% if post.path contains 'blogs/' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> <span>({{ post.date | date: "%Y-%m-%d" }})</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 <br>
 
@@ -22,8 +25,5 @@ redirect_to: "https://medium.com/@himanshusingour7/the-1-minute-trick-to-remembe
 <br>
 
 {% include disqus.html %} 
-
-<br>
-
 
 <br>
