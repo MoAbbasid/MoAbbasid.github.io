@@ -4,10 +4,7 @@ permalink: /blogs/index.html
 title: Blogs
 author_profile: true
 ---
-
 ### Blog Posts
-
-# Blog Posts
 
 <ul>
 {% for post in site.posts %}
