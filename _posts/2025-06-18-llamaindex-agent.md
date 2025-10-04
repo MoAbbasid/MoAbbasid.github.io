@@ -1,9 +1,9 @@
 ---
-title: "LlamaIndex Interactive Story Teller Agent"
+title: "Building a Dynamic AI Storyteller with LlamaIndex Workflows"
 date: 2025-06-18
 layout: post
 ---
-### Building a Dynamic AI Storyteller with LlamaIndex Workflows
+
 An AI-powered text adventure game where every scene can be illustrated by AI. \
 acessible at: [LlamaIndex StoryTeller](https://moabbasid.github.io/LlamaIndex-StoryTeller)
 
