@@ -33,6 +33,12 @@ in preparation.* Compares feature representations from a detection model (YOLO) 
 
 ---
 
-## News and Updates
+## Blog Posts
+
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
 
 <br>
