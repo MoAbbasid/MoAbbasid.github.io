@@ -25,8 +25,7 @@ I'm a Graduate Research Assistant pursuing a Master's in Information Technology 
 ## Publications
 
 * **Deep Learning Based Utility Pole Safety Assessment from Visual Data**
-  Presents a YOLO-based detection baseline and an initial safety assessment pipeline for utility pole images.
-  Publisher page: [Article](https://joiv.org/index.php/joiv/article/view/3039)
+Designed an AI-driven solution to automatically detect utility poles and evaluate safety clearance violations, addressing challenges in costly and subjective manual inspections. Built and augmented a custom dataset and achieved 83% compliance classification accuracy with YOLOv8 as the backbone, enabling reliable large-scale infrastructure safety monitoring. [Article](https://joiv.org/index.php/joiv/article/view/3039)
 
 * **Feature-Based Utility Pole Assessment under Occlusion Using Detection and Vision-Language Models**
 (in preparation).  
