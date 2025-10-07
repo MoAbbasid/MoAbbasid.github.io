@@ -15,7 +15,7 @@ I'm a Graduate Research Assistant pursuing a Master's in Information Technology 
 * Visual representation learning and contrastive methods
 * Vision–language models (CLIP, BLIP) and few-shot adaptation
 * Detection models and feature extraction (YOLO, SSD and backbones)
-* Occlusion evaluation, Synthetic imagegeneration, and augmentation
+* Occlusion evaluation, Synthetic image generation, and augmentation
 * Embedding-based retrieval and classification with limited labels
 * Graph neural networks for spatial/contextual reasoning
 
