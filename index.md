@@ -25,11 +25,11 @@ I'm a Graduate Research Assistant pursuing a Master's in Information Technology 
 ## Publications
 
 * **Deep Learning Based Utility Pole Safety Assessment from Visual Data**
-  *Master's project.* Presents a YOLO-based detection baseline and an initial safety assessment pipeline for utility pole images.
+  Presents a YOLO-based detection baseline and an initial safety assessment pipeline for utility pole images.
   Publisher page (JOIV): [JOIV article](https://joiv.org/index.php/joiv/article/view/3039)
 
-* **Feature-Based Utility Pole Assessment under Occlusion: Comparing CLIP and YOLO**
-  *Master's thesis / manuscript in preparation.* Compares feature representations from a detection model (YOLO) and a vision–language model (CLIP) for utility pole image assessment under varying levels of visual occlusion. Evaluates which representation better supports downstream classification and retrieval with limited labeled data.
+* **Feature-Based Utility Pole Assessment under Occlusion Using Detection and Vision-Language Models**
+in preparation.* Compares feature representations from a detection model (YOLO) and a vision–language model (CLIP) for utility pole image assessment under varying levels of visual occlusion. Evaluates which representation better supports downstream classification and retrieval with limited labeled data.
 
 ---
 
