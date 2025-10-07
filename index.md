@@ -26,7 +26,7 @@ I'm a Graduate Research Assistant pursuing a Master's in Information Technology 
 
 * **Deep Learning Based Utility Pole Safety Assessment from Visual Data**
   Presents a YOLO-based detection baseline and an initial safety assessment pipeline for utility pole images.
-  Publisher page (JOIV): [JOIV article](https://joiv.org/index.php/joiv/article/view/3039)
+  Publisher page: [Article](https://joiv.org/index.php/joiv/article/view/3039)
 
 * **Feature-Based Utility Pole Assessment under Occlusion Using Detection and Vision-Language Models**
 (in preparation).
