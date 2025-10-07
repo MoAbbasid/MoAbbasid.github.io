@@ -29,7 +29,8 @@ I'm a Graduate Research Assistant pursuing a Master's in Information Technology 
   Publisher page (JOIV): [JOIV article](https://joiv.org/index.php/joiv/article/view/3039)
 
 * **Feature-Based Utility Pole Assessment under Occlusion Using Detection and Vision-Language Models**
-in preparation.* Compares feature representations from a detection model (YOLO) and a vision–language model (CLIP) for utility pole image assessment under varying levels of visual occlusion. Evaluates which representation better supports downstream classification and retrieval with limited labeled data.
+(in preparation).
+Compares feature representations from a detection model (YOLO) and a vision–language model (CLIP) for utility pole image assessment under varying levels of visual occlusion. Evaluates which representation better supports downstream classification and retrieval with limited labeled data.
 
 ---
 
