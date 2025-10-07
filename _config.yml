@@ -50,8 +50,8 @@ bing_verify: "D49ECF33034D5785DAD27B77341D43FA"
 #  `external: true` opens the link in a new tab.
 # --------------------------------------------------
 links:
-  - title: About Me
-    url: /
+  # - title: About Me
+  #   url: /
   # - title: Blogs
   #   url: /blogs/
   # - title: Publications
