@@ -6,7 +6,7 @@ layout: page
 
 # About Me
 
-I'm a Graduate Research Assistant pursuing a Master's in Information Technology at [Multimedia University Malaysia](https://www.mmu.edu.my). Currently immersed in applied AI for infrastructure inspection, my thesis is **Utility Pole Safety Assessment from Visual Data’**. At [Telekom Malaysia R&D](https://www.tmrnd.com.my), I implemented computer vision models and evaluate their performance for practical safety tasks. Previously, as a Full Stack Developer in the telecom industry, I developed microservices and APIs. I aim to bridge academic research with real-world engineering impact.
+I'm a Graduate Research Assistant pursuing a Master's in Information Technology at [Multimedia University Malaysia](https://www.mmu.edu.my). Currently immersed in applied AI for infrastructure inspect[...]
 
 
 ## Research Interests
@@ -30,9 +30,7 @@ I'm a Graduate Research Assistant pursuing a Master's in Information Technology 
 
 * **Feature-Based Utility Pole Assessment under Occlusion Using Detection and Vision-Language Models**
 (in preparation).
-
-
-Compares feature representations from a detection model (YOLO) and a vision–language model (CLIP) for utility pole image assessment under varying levels of visual occlusion. Evaluates which representation better supports downstream classification and retrieval with limited labeled data.
+Compares feature representations from a detection model (YOLO) and a vision–language model (CLIP) for utility pole image assessment under varying levels of visual occlusion. Evaluates which representation is most robust.
 
 ---
 
