@@ -11,7 +11,7 @@ I'm a Graduate Research Assistant pursuing a Master's in Information Technology 
 
 ## Research Interests
 
-* Image Information Retrieval
+* Computer Vision (Image Processing/ Image Information Retrieval)
 * Practical AI for telecom infrastructure and safety assessment
 * Visual representation learning and contrastive methods
 * Vision–language models (CLIP, BLIP) and few-shot adaptation
