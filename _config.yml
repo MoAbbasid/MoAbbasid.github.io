@@ -7,7 +7,7 @@ description: Two roads diverged in woods, I took the one less traveled by.  # St
 
 # TIP ── For local development you can comment out `url`
 # and build with relative paths. In production you want this set.
-url: https://MoAbbasid.github.io
+url: https://moabbasid.github.io
 
 # --------------------------------------------------
 #  AUTHOR / PROFILE DATA
@@ -50,18 +50,16 @@ bing_verify: "D49ECF33034D5785DAD27B77341D43FA"
 #  `external: true` opens the link in a new tab.
 # --------------------------------------------------
 links:
-  # - title: About Me
-  #   url: /
-  # - title: Blogs
-  #   url: /blogs/
-  # - title: Publications
-  #   url: /publications/
-  # - title: Awards
-  #   url: /awards/
-  # - title: Hobbies
-  #   url: /hobbies/
-  # - title: 中文
-  #   url: /cn/
+  - title: About Me
+    url: /
+  - title: Blogs
+    url: /blogs/
+  - title: Publications
+    url: /publications/
+  - title: Awards
+    url: /awards/
+  - title: Hobbies
+    url: /hobbies/
 
 
 # --------------------------------------------------
