@@ -7,7 +7,7 @@ description: Two roads diverged in woods, I took the one less traveled by.  # St
 
 # TIP ── For local development you can comment out `url`
 # and build with relative paths. In production you want this set.
-url: https://MoAbbasid.github.io
+url: https://moabbasid.github.io
 
 # --------------------------------------------------
 #  AUTHOR / PROFILE DATA
@@ -17,11 +17,11 @@ owner:
   avatar: Abbas.jpeg
   bio: Forwards and Upwards ↗.
   email: moabbasid@outlook.com
-  # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  # cv: https://example.com/file/CV.pdf
 
 
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  # twitter: lancecai2002
+  # twitter: your_twitter_username
   github: MoAbbasid
   linkedin: moabbasid
   medium_username: Moabbasid # your Medium username
@@ -32,7 +32,7 @@ owner:
   # xiaohongshu: 5c27848f0000000005030c6f
   # bilibili: 594030035
   # facebook: caihanlin2002
-  # instagram: lancecai2002
+  # instagram: your_instagram_username
   # lastfm:
   # tumblr:
 
@@ -50,18 +50,16 @@ bing_verify: "D49ECF33034D5785DAD27B77341D43FA"
 #  `external: true` opens the link in a new tab.
 # --------------------------------------------------
 links:
-  # - title: About Me
-  #   url: /
-  # - title: Blogs
-  #   url: /blogs/
-  # - title: Publications
-  #   url: /publications/
-  # - title: Awards
-  #   url: /awards/
-  # - title: Hobbies
-  #   url: /hobbies/
-  # - title: 中文
-  #   url: /cn/
+  - title: About Me
+    url: /
+  - title: Blogs
+    url: /blogs/
+  - title: Publications
+    url: /publications/
+  - title: Awards
+    url: /awards/
+  - title: Hobbies
+    url: /hobbies/
 
 
 # --------------------------------------------------
@@ -102,7 +100,7 @@ kramdown:
 #  DISQUS COMMENT SYSTEM
 # --------------------------------------------------
 # disqus:
-#   shortname: lancecai
+#   shortname: your_disqus_shortname
 
 
 # include: [".htaccess"]
