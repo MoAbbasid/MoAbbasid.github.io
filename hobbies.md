@@ -4,21 +4,25 @@ permalink: /hobbies/index.html
 title: Hobbies
 ---
 
-I am an avid runner because I believe in training the body.
-I also play guitar because I believe in training the soul.
-Outside research, these are the two hobbies I spend most of my time on.
+Im an avid runner as I believe in the need to train the body, 
+Im also an "Intermediate" Guitarist, as I believe in the need to train the soul.
+these two are the things that have space in my mind other than my research.
 
 # Hobbies
 ## Music
 
-## Workshops & Public Speaking
+## Workshop
 
 <!-- <div class="third">
 <img src="/images/prelection1.JPG">
 <img src="/images/speech1.JPG">
 <img src="/images/speech3.JPG">
 </div> -->
-<br>I enjoy speaking at workshops and sharing practical lessons from my projects.
-Teaching helps me organize ideas clearly and deepen my own understanding.
-Long term, I hope to mentor students and contribute to strong local academic communities.
+<br>There must be something truly magical about standing on stage to give a fantastic speech, which considerably lifts my spirits and energizes my entire body. If you desire to master a specific knowledge in depth, just give a prelection. If you can explain to others for complete understanding, you are already an expert. I really enjoy the accomplishment of imparting my knowledge to others, so what I strive for is to be **a student's favorite professor** at the [best universities in my hometown].
 
+
+<!-- Calendly inline widget begin -->
+
+<div class="calendly-inline-widget" data-url="https://calendly.com/lancecai/meet-with-lance" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
