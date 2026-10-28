@@ -17,11 +17,11 @@ owner:
   avatar: Abbas.jpeg
   bio: Forwards and Upwards ↗.
   email: moabbasid@outlook.com
-  # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  # cv: https://moabbasid.github.io/file/CV-HanlinCAI.pdf
 
 
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  # twitter: lancecai2002
+  # twitter: your_twitter_handle
   github: MoAbbasid
   linkedin: moabbasid
   medium_username: Moabbasid # your Medium username
@@ -31,8 +31,8 @@ owner:
   # zhihu: https://www.zhihu.com/people/chlire
   # xiaohongshu: 5c27848f0000000005030c6f
   # bilibili: 594030035
-  # facebook: caihanlin2002
-  # instagram: lancecai2002
+  # facebook: your_facebook_handle
+  # instagram: your_instagram_handle
   # lastfm:
   # tumblr:
 
@@ -50,18 +50,18 @@ bing_verify: "D49ECF33034D5785DAD27B77341D43FA"
 #  `external: true` opens the link in a new tab.
 # --------------------------------------------------
 links:
-  # - title: About Me
-  #   url: /
-  # - title: Blogs
-  #   url: /blogs/
-  # - title: Publications
-  #   url: /publications/
-  # - title: Awards
-  #   url: /awards/
-  # - title: Hobbies
-  #   url: /hobbies/
-  # - title: 中文
-  #   url: /cn/
+  - title: About Me
+    url: /
+  - title: Blogs
+    url: /blogs/
+  - title: Publications
+    url: /publications/
+  - title: Awards
+    url: /awards/
+  - title: Hobbies
+    url: /hobbies/
+  - title: Publications (中文)
+    url: /file/publications-zh/
 
 
 # --------------------------------------------------
@@ -102,7 +102,7 @@ kramdown:
 #  DISQUS COMMENT SYSTEM
 # --------------------------------------------------
 # disqus:
-#   shortname: lancecai
+#   shortname: your_disqus_shortname
 
 
 # include: [".htaccess"]

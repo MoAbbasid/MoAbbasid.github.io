@@ -20,10 +20,12 @@ author_profile: true
 
 
 
+{% if site.disqus.shortname %}
 ## Leave a Message
 
 <br>
 
-{% include disqus.html %} 
+{% include disqus.html %}
 
 <br>
+{% endif %}
