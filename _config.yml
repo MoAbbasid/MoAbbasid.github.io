@@ -52,6 +52,8 @@ bing_verify: "D49ECF33034D5785DAD27B77341D43FA"
 links:
   - title: About Me
     url: /
+  - title: Projects
+    url: /projects/
   - title: Blogs
     url: /blogs/
   - title: Publications
