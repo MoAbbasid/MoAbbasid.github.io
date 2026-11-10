@@ -1,7 +1,9 @@
 <style>
 .click-gif-wrap{margin:0 0 1.2em;}
 .click-gif{position:relative;display:block;width:100%;max-width:880px;margin:0;padding:0;border:0;border-radius:4px;overflow:hidden;background:#111;cursor:pointer;line-height:0;-webkit-appearance:none;appearance:none;}
-.click-gif img{display:block;width:100%;height:100%;object-fit:cover;}
+.click-gif img,.click-gif video{display:block;width:100%;height:100%;object-fit:cover;}
+.click-gif video{position:absolute;left:0;top:0;visibility:hidden;}
+.click-gif.is-playing video{visibility:visible;}
 .click-gif__play{position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;background:rgba(0,0,0,.62);color:#fff;font-size:30px;line-height:76px;text-indent:4px;text-align:center;transition:background .15s,transform .15s;}
 .click-gif:hover .click-gif__play,.click-gif:focus-visible .click-gif__play{background:rgba(0,0,0,.82);transform:scale(1.06);}
 .click-gif:focus-visible{outline:3px solid #1976d2;outline-offset:2px;}
@@ -16,23 +18,25 @@
 document.addEventListener('click', function (e) {
   var btn = e.target.closest ? e.target.closest('.click-gif') : null;
   if (!btn) { return; }
-  var img = btn.querySelector('img');
+  var v = btn.querySelector('video');
   if (btn.classList.contains('is-playing')) {
-    img.src = btn.getAttribute('data-poster');
+    v.pause();
+    v.removeAttribute('src');
+    v.load();
     btn.classList.remove('is-playing');
     btn.setAttribute('aria-pressed', 'false');
     return;
   }
   if (btn.classList.contains('is-loading')) { return; }
   btn.classList.add('is-loading');
-  var loader = new Image();
-  loader.onload = function () {
-    img.src = btn.getAttribute('data-gif');
+  v.onplaying = function () {
     btn.classList.remove('is-loading');
     btn.classList.add('is-playing');
     btn.setAttribute('aria-pressed', 'true');
   };
-  loader.onerror = function () { btn.classList.remove('is-loading'); };
-  loader.src = btn.getAttribute('data-gif');
+  v.onerror = function () { btn.classList.remove('is-loading'); };
+  v.src = btn.getAttribute('data-video');
+  var p = v.play();
+  if (p && p.catch) { p.catch(function () { btn.classList.remove('is-loading'); }); }
 });
 </script>
