@@ -16,7 +16,7 @@ Streamlit dashboard joining open socio-economic data with GE-14 and GE-15 electi
 
 **Stack:** Python, pandas, Plotly, Streamlit. Open data from DOSM and ElectionData.MY.
 
-**Key findings:**
+**Highlights: what the data shows**
 
 * The median seat has a median household income of RM 5,350 a month. Seat medians range from RM 2,851 (Kota Marudu, Sabah) to RM 15,867 (Segambut, Kuala Lumpur).
 * 117 of 222 seats (52.7%) changed winning coalition between GE-14 and GE-15.
@@ -32,7 +32,7 @@ Cone detection on dashcam frames from the CMU ROADWork dataset, with relative ga
 
 **Stack:** Python, Ultralytics YOLO26, OpenCV, Folium. Data: CMU ROADWork (ODC-Attribution).
 
-**Key findings:**
+**Highlights: results**
 
 * YOLO26s fine-tuned for 50 epochs reaches mAP50 0.747 (precision 0.804, recall 0.717) on the 5,396 cone instances in the validation set.
 * Gaps between neighbouring cones are scaled from cone height, assuming a 28 in cone, so they are relative rather than calibrated distances.
