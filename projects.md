@@ -44,9 +44,9 @@ Cone detection on dashcam frames from the CMU ROADWork dataset, with relative ga
 
 ## Visual Document QA
 
-{% include click-gif.html video="/assets/visual-doc-qa-demo.mp4" poster="/assets/visual-doc-qa-poster.jpg" alt="Asking questions about WHO situation reports and getting each answer with the cited page" w="960" h="568" %}
+{% include click-gif.html video="/assets/visual-doc-qa-demo.mp4" poster="/assets/visual-doc-qa-poster.jpg" alt="Asking questions about WHO situation reports and an IMF report, each answer shown with its cited page and the value highlighted" w="960" h="567" %}
 
-Ask a question about a collection of PDF reports and get the answer with the page it came from. Retrieval works on page images, so tables and charts are found as they appear on the page. Everything runs locally on two free Kaggle T4 GPUs, with no API key.
+Point it at a folder of PDFs and ask a question: you get the answer, the page it came from, and the answer value highlighted on that page. Retrieval works on page images, so tables and charts are found as they appear on the page. Everything runs locally on two free Kaggle T4 GPUs, with no API key.
 
 **Stack:** Python, Docling, PyMuPDF, EVIE-4.5B (page-image retrieval), Qwen3-VL-8B (reader), Gradio. Data: WHO Malaysia COVID-19 situation reports, ViDoRe V3.
 
