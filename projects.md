@@ -41,3 +41,19 @@ Cone detection on dashcam frames from the CMU ROADWork dataset, with relative ga
 **Details:** [Interactive route maps](/projects/roadwork-cone-mapping/)
 
 **Code:** [github.com/MoAbbasid/roadwork-cone-mapping](https://github.com/MoAbbasid/roadwork-cone-mapping)
+
+## Visual Document QA
+
+{% include click-gif.html video="/assets/visual-doc-qa-demo.mp4" poster="/assets/visual-doc-qa-poster.jpg" alt="Asking questions about WHO situation reports and getting each answer with the cited page" w="960" h="568" %}
+
+Ask a question about a collection of PDF reports and get the answer with the page it came from. Retrieval works on page images, so tables and charts are found as they appear on the page. Everything runs locally on two free Kaggle T4 GPUs, with no API key.
+
+**Stack:** Python, Docling, PyMuPDF, EVIE-4.5B (page-image retrieval), Qwen3-VL-8B (reader), Gradio. Data: WHO Malaysia COVID-19 situation reports, ViDoRe V3.
+
+**Highlights: results** (test questions held out and scored once)
+
+* On the ViDoRe V3 HR benchmark (223 questions with human-written answers), 58% of answers are judged correct and 81% correct or partly correct. For context, the ViDoRe V3 paper reports 61–66% for Gemini 3 Pro, GPT-5.2 and Qwen3-VL-235B.
+* 74% exact numeric match on 50 questions about 31 WHO situation reports (155 pages of narrative and tables).
+* Page retrieval scores nDCG@10 68.0 (HR) and 72.1 (Finance-EN), reproducing EVIE's published result within a point.
+
+**Code:** [github.com/MoAbbasid/visual-doc-qa](https://github.com/MoAbbasid/visual-doc-qa)
