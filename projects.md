@@ -52,8 +52,8 @@ Ask a question about a collection of PDF reports and get the answer with the pag
 
 **Highlights: results** (test questions held out and scored once)
 
-* On the ViDoRe V3 HR benchmark (223 questions with human-written answers), 58% of answers are judged correct and 81% correct or partly correct. For context, the ViDoRe V3 paper reports 61–66% for Gemini 3 Pro, GPT-5.2 and Qwen3-VL-235B.
-* 74% exact numeric match on 50 questions about 31 WHO situation reports (155 pages of narrative and tables).
+* On the ViDoRe V3 benchmark (human-written reference answers), 58% of answers are judged correct on HR (223 questions) and 62.5% on Finance-EN (216 questions). For context, the ViDoRe V3 paper reports 61–66% (HR) and 59.5–67.3% (Finance-EN) for Qwen3-VL-235B, GPT-5.2 and Gemini 3 Pro.
+* 76% exact numeric match on 50 questions about 31 WHO situation reports (155 pages of narrative and tables).
 * Page retrieval scores nDCG@10 68.0 (HR) and 72.1 (Finance-EN), reproducing EVIE's published result within a point.
 
 **Code:** [github.com/MoAbbasid/visual-doc-qa](https://github.com/MoAbbasid/visual-doc-qa)
