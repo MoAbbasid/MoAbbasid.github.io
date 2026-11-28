@@ -57,3 +57,20 @@ Point it at a folder of PDFs and ask a question: you get the answer, the page it
 * Page retrieval scores nDCG@10 68.0 (HR) and 72.1 (Finance-EN), reproducing EVIE's published result within a point.
 
 **Code:** [github.com/MoAbbasid/visual-doc-qa](https://github.com/MoAbbasid/visual-doc-qa)
+
+## Measure from One Photo
+
+{% include click-gif.html video="/assets/measure-one-photo-demo.mp4" poster="/assets/measure-one-photo-poster.jpg" alt="One street photo turned into distance labels on cars and people, a click-to-measure line, and a rotatable 3D point cloud" w="960" h="570" %}
+
+Give it one ordinary photo. It returns a metric depth map, a 3D point cloud you can rotate, the distance to every car, person and cyclist, and the real distance between any two points you click. It needs no calibration and no camera details, because the model predicts the focal length from the image.
+
+**Stack:** Python, PyTorch, UniDepthV2-L (metric depth and 3D points), Ultralytics YOLO26l-seg (instance masks), OpenCV, Plotly, Gradio. Data: KITTI 3D object benchmark with Velodyne LiDAR ground truth.
+
+**Highlights: results** (3,669 held-out KITTI frames, scored once against LiDAR)
+
+* The distance to each detected object is within 6.4% of the LiDAR distance on average (median 4.5%, mean error 1.8 m). 81.5% of objects are within 10%.
+* It finds 84.5% of the 19,067 labelled vehicles, pedestrians and cyclists, and 89% of the cars.
+* The distance between two objects has a median error of 8.0%.
+* KITTI was not in the depth model's training data. Every setting was chosen on 100 separate development frames before the final run.
+
+**Code available on request.**
